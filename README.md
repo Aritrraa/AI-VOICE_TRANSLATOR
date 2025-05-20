@@ -16,6 +16,10 @@ Whether you're a traveler, language learner, content creator, or simply someone 
 
 The application integrates state-of-the-art APIs and modern web technologies to deliver fast, accurate, and user-friendly translations—all wrapped in a visually appealing dark theme.
 
+
+---
+
+> 🌐 **Live Demo**: [Visit VoiceXChange]([https://voicexchange.onrender.com](https://ai-voice-translator-3.onrender.com/))
 ---
 > **🌐 Try VoiceXChange in Action**
 
@@ -72,7 +76,8 @@ Translated text is converted back to speech using gTTS.
 Clone the repository:
 
 ```bash
-git clone https://github.com/AdarshXKumAR/AI-Voice-Translator.git
+git remote set-url origin https://github.com/aritrraa/AI-VOICE-TRANSLATOR.git
+
 cd AI-Voice-Translator
 ```
 
@@ -110,6 +115,44 @@ Then open your browser and go to:
 ```
 http://localhost:5000
 ```
+
+
+---
+
+## ☁️ Deployment Instructions (via Render)
+
+To deploy this app using [Render](https://render.com):
+
+1. **Push your project to a GitHub repository**  
+   Make sure all your code is committed and pushed to a public or private GitHub repo.
+
+2. **Go to the [Render Dashboard](https://dashboard.render.com/)**  
+   Log in or sign up with your GitHub account.
+
+3. **Click on "New" → "Web Service"**
+
+4. **Connect your GitHub repository**  
+   Choose the repository where your VoiceXChange project is hosted.
+
+5. **Configure your service with the following settings**:
+   - **Environment**: `Python 3.8+`
+   - **Build Command**:  
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - **Start Command**:  
+     ```bash
+     python app.py
+     ```
+
+6. **Add the required environment variable**:
+   - Key: `ASSEMBLYAI_API_KEY`  
+   - Value: `your_assemblyai_api_key_here`
+
+7. **Click "Create Web Service"**  
+   Render will install dependencies, build your project, and deploy it automatically.
+
+8. 🎉 **Access your live deployed app via the provided Render URL**
 
 ---
 
