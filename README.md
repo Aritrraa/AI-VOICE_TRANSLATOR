@@ -19,7 +19,7 @@ The application integrates state-of-the-art APIs and modern web technologies to 
 
 ---
 
-> 🌐 **Live Demo**: [Visit VoiceXChange]([https://voicexchange.onrender.com](https://ai-voice-translator-3.onrender.com/))
+> 🌐 **Live Demo**: [Visit VoiceXChange]](https://ai-voice-translator-3.onrender.com/)
 ---
 > **🌐 Try VoiceXChange in Action**
 
@@ -119,23 +119,14 @@ http://localhost:5000
 
 ---
 
-## ☁️ Deployment Instructions (via Render)
+## ☁️ Deployment Summary (via Render)
 
-To deploy this app using [Render](https://render.com):
+I have successfully deployed this project using [Render](https://ai-voice-translator-3.onrender.com/). Below are the essential steps followed:
 
-1. **Push your project to a GitHub repository**  
-   Make sure all your code is committed and pushed to a public or private GitHub repo.
-
-2. **Go to the [Render Dashboard](https://dashboard.render.com/)**  
-   Log in or sign up with your GitHub account.
-
-3. **Click on "New" → "Web Service"**
-
-4. **Connect your GitHub repository**  
-   Choose the repository where your VoiceXChange project is hosted.
-
-5. **Configure your service with the following settings**:
-   - **Environment**: `Python 3.8+`
+1. **Pushed the code** to a GitHub repository.
+2. **Connected the repository** to Render by creating a new Web Service.
+3. **Configured the service** with the following settings:
+   - **Environment**: Python 3.8+
    - **Build Command**:  
      ```bash
      pip install -r requirements.txt
@@ -144,15 +135,8 @@ To deploy this app using [Render](https://render.com):
      ```bash
      python app.py
      ```
-
-6. **Add the required environment variable**:
-   - Key: `ASSEMBLYAI_API_KEY`  
-   - Value: `your_assemblyai_api_key_here`
-
-7. **Click "Create Web Service"**  
-   Render will install dependencies, build your project, and deploy it automatically.
-
-8. 🎉 **Access your live deployed app via the provided Render URL**
+4. **Added required environment variables**, including API keys for services like Gemini and Groq.
+5. **Render handled the deployment automatically**, and the app is now live and accessible via a Render-provided URL.
 
 ---
 
