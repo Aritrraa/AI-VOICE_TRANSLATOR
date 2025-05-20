@@ -9,18 +9,18 @@
 ### 1. 🎤 Voice Input
 Capture your voice in real-time through an intuitive recording interface.
 
-![Voice Input](YOUR_IMAGE_URL_1)
+![Voice Input](ai-translator-1.png)
 
 ### 2. 📄 Translation & Transcription
 Your speech is transcribed using AssemblyAI and translated using Google Translate.
 
-![Transcription & Translation](YOUR_IMAGE_URL_2)
+![Transcription & Translation](ai-translator-2.png)
 
 ### 3. 🔊 Voice Output
 Translated text is converted back to speech using gTTS.
 
-![Voice Output](YOUR_IMAGE_URL_3)
-![Voice Output](YOUR_IMAGE_URL_4)
+![Voice Output](ai-translator-3.png)
+![Voice Output](ai-translator-4.png)
 ---
 
 ## ✨ Key Features
