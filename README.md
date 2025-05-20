@@ -19,7 +19,7 @@ The application integrates state-of-the-art APIs and modern web technologies to 
 
 ---
 
-> 🌐 **Live Demo**: [Visit VoiceXChange]](https://ai-voice-translator-3.onrender.com/)
+> 🌐 **Live Demo**: [Visit VoiceXChange](https://ai-voice-translator-3.onrender.com/)
 ---
 > **🌐 Try VoiceXChange in Action**
 
