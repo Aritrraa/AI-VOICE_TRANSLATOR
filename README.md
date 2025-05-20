@@ -1,6 +1,22 @@
 # 🎙️ VoiceXChange - Real-Time AI Speech Translator  
-**VoiceXChange** is a sleek and intuitive web application that enables seamless real-time speech translation. Simply speak into your microphone, and receive instant translations across multiple languages—with audio playback for both original and translated speech.
 
+**VoiceXChange** is a sleek, modern, and intuitive web application designed to break language barriers through real-time speech translation. Powered by advanced AI services, VoiceXChange lets users:
+
+- 🎙️ Record their voice directly from the browser  
+- ✍️ Convert speech into text using cutting-edge transcription technology  
+- 🌍 Translate the text into multiple global languages  
+- 🔊 Playback the translated content using lifelike synthesized voice  
+
+Whether you're a traveler, language learner, content creator, or simply someone looking to explore multilingual communication, **VoiceXChange** delivers a seamless and interactive experience with:
+
+- 🔄 **Real-time voice-to-voice translation**  
+- 🌐 **Support for 7+ major world languages**  
+- 🎧 **Instant audio playback** for both original and translated phrases  
+- 📱 **Responsive and elegant UI** optimized for both desktop and mobile devices  
+
+The application integrates state-of-the-art APIs and modern web technologies to deliver fast, accurate, and user-friendly translations—all wrapped in a visually appealing dark theme.
+
+---
 > **🌐 Try VoiceXChange in Action**
 
 
@@ -151,10 +167,28 @@ This project is open-source under the **MIT License**. Refer to the `LICENSE` fi
 
 ---
 
-## 🚧 Upcoming Features
+
+## 🙏 Acknowledgements
+
+We are incredibly thankful for the following tools and services that made **VoiceXChange** possible:
+
+- **[AssemblyAI](https://www.assemblyai.com/)** – For providing powerful and accurate speech-to-text capabilities  
+- **[Google Translate API](https://cloud.google.com/translate)** – For enabling fast and multilingual text translation  
+- **[gTTS (Google Text-to-Speech)](https://pypi.org/project/gTTS/)** – For turning translated text into natural-sounding speech  
+- **[Font Awesome](https://fontawesome.com/)** – For the extensive and visually rich collection of icons used in the UI  
+- **[Poppins Font](https://fonts.google.com/specimen/Poppins)** – A clean and modern typeface that enhances UI readability  
+- **[Flask](https://flask.palletsprojects.com/)** – A lightweight and flexible backend framework that powers the server logic  
+- **[JavaScript Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)** – For enabling audio recording, visualization, and real-time browser interactions  
+
+Special thanks to all open-source contributors, API providers, and developer communities for enabling such innovative projects to thrive.
+
+## 🚧 Future Improvements
 
 - 🌐 Add more supported languages  
 - 🎙️ Custom voices per language  
 - 💾 Download or save translated outputs  
 - 🔐 User login system with translation history  
 - 📶 Offline mode with caching and fallback support
+
+## 👤 Author
+- Developed by Aritra Das
