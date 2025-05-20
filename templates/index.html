@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceXChange - AI Voice Translator</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="spinner">
+                <div class="dot-spinner">
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                </div>
+            </div>
+            <h2>Loading VoiceXChange...</h2>
+            <p>Your AI Voice Translator</p>
+        </div>
+    </div>
+
+    <main class="container" id="mainContainer">
+        <header>
+            <div class="logo">
+                <span class="icon"><i class="fas fa-microphone-alt"></i></span>
+                <h1>VoiceXChange</h1>
+            </div>
+            <p class="greeting" id="greeting">Good morning, Welcome to VoiceXChange!</p>
+        </header>
+
+        <section class="recorder-section">
+            <div class="language-selector">
+                <label for="sourceLanguage">Select your language:</label>
+                <select id="sourceLanguage">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Japanese">Japanese</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Russian">Russian</option>
+                    <option value="German">German</option>
+                    <option value="Korean">Korean</option>
+                    <option value="Italian">Italian</option>
+                        <option value="French">French</option>
+                </select>
+            </div>
+
+            <div class="recorder-container">
+                <div class="recorder" id="recorder">
+                    <div class="recorder-visualization">
+                        <canvas id="visualizer"></canvas>
+                    </div>
+                    <div class="recorder-status" id="recorderStatus">
+                        <i class="fas fa-microphone"></i>
+                        <span>Click to record</span>
+                    </div>
+                    <div class="recorder-time" id="recorderTime">00:00</div>
+                    <div class="recorder-controls">
+                        <button id="recordButton" class="primary-button">
+                            <i class="fas fa-microphone"></i> Record
+                        </button>
+                        <button id="stopButton" class="primary-button" disabled>
+                            <i class="fas fa-stop"></i> Stop
+                        </button>
+                        <button id="clearButton" class="secondary-button" disabled>
+                            <i class="fas fa-trash"></i> Clear
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="audio-player" id="originalAudioPlayer" style="display: none;">
+                <h3>Original Recording</h3>
+                <div class="audio-player-container">
+                    <audio id="originalAudio" controls></audio>
+                    <div class="audio-text">
+                        <h4>Transcript:</h4>
+                        <p id="originalText"></p>
+                    </div>
+                </div>
+                <button id="translateButton" class="primary-button">
+                    <i class="fas fa-language"></i> Translate
+                </button>
+            </div>
+        </section>
+
+        <section class="translations-section" id="translationsSection" style="display: none;">
+            <div class="section-header">
+                <h2>Translations</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="translations-container" id="translationsContainer">
+                <!-- Translation cards will be added here -->
+            </div>
+        </section>
+    </main>
+
+    <div class="processing-modal" id="processingModal">
+        <div class="processing-content">
+            <div class="spinner">
+                <div class="dot-spinner">
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                    <div class="dot-spinner__dot"></div>
+                </div>
+            </div>
+            <h2>Processing your voice...</h2>
+            <p>Translating to multiple languages</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 VoiceXChange - AI Voice Translator</p>
+    </footer>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
